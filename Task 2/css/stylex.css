@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: courier new-times-roman san-sariff;
+}
+
+header{
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin: auto;
+   margin-top: 10px;
+}
+
+nav{
+    display: flex;
+}
+#nav{
+    margin-right: 10px;
+}
+ul.nav{
+    display: flex;
+    list-style-type: none;
+    border-right: 1px solid gray;
+    padding-right: 30px;
+    column-gap: 30px;
+    padding-top: 10px;
+}
+
+.icontext{
+    display: flex;
+    column-gap: 30px;
+    padding-left: 30px;
+}
+
+main{
+    height: 90vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.topleft{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+}
+
+.left-item{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.h1-text{
+    font-size: 50px;
+    line-height: 50px;
+    color: black;
+}
+
+button{
+    border: 1px solid #FF6433;
+    background-color: #FF6433;
+    border-radius: 12px;
+    color: #ffffff;
+    padding: 20px 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.period-icon{
+    display: flex;
+    column-gap: 10px;
+}
+
+.period-icon p{
+    color: gray;
+}
+
+.period-icon h4 {
+    color: black;
+}
+
+.right-item{
+    background-image: url('https://i.ibb.co/BcYx9bn/Image.png');
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 70vh;
+    position: relative;
+}
+
+.first-img{
+    position: absolute;
+    left: -120px;
+}
+
+.second-img{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+
+section{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: #292a2b;
+    padding-left:10% ;
+    padding-right: 10%;
+}
+ ul{
+    list-style-type: none;
+ }
+ #midlist{
+    margin-top: 20px;
+ }
+
+.midleft{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    
+  
+}
+
+.midright{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    
+}
+input{
+    font-size: 100%;
+    color: #0f0f0f;
+    background-color: white;
+    padding: 5px;
+    width: 95%;
+    height: 2vh;
+    border-radius: 3px;
+}
+.last{
+    padding: 5vh 5% 5vh 5%;
+    height: 30vh;
+    width: 100%;
+    display:flex;
+    direction:column;
+}
+
+.buttleft{
+    height: 100%;
+    width: 50%;  
+}
+.buttright{
+    height: 100%;
+    width: 50%;  
+} 
