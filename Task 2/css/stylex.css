@@ -141,28 +141,3 @@ section{
     display: flex;
     
 }
-input{
-    font-size: 100%;
-    color: #0f0f0f;
-    background-color: white;
-    padding: 5px;
-    width: 95%;
-    height: 2vh;
-    border-radius: 3px;
-}
-.last{
-    padding: 5vh 5% 5vh 5%;
-    height: 30vh;
-    width: 100%;
-    display:flex;
-    direction:column;
-}
-
-.buttleft{
-    height: 100%;
-    width: 50%;  
-}
-.buttright{
-    height: 100%;
-    width: 50%;  
-} 
